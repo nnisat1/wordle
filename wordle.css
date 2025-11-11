@@ -13,7 +13,7 @@ hr {
     letter-spacing: 2px;
 }
 
-#gameBoard {
+.scoreboard {
     width: 350px;
     height: 420px;
     margin: 0 auto;
@@ -22,20 +22,7 @@ hr {
     flex-wrap: wrap;
 }
 
-.tile {
-    border: 2px solid lightgray;
-    width: 60px;
-    height: 60px;
-    margin: 2.5px;
 
-    color: black;
-    font-size: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
 
 .correct {
     background-color: #6AAA64;
@@ -54,5 +41,20 @@ hr {
     background-color:#787C7E ;
     color: white;
     border-color: white;
+
+}
+
+.scoreboard-tile {
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    color: black;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }

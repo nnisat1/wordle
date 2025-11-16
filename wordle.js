@@ -89,3 +89,38 @@ function handleKeyDown(event) {
     }
 
 
+    //code to add to the save function in order to change the colour
+
+//     function save() {
+//     if (guess.length !== width) return;
+
+//     let rowStartIndex = row * width;
+
+//     for (let i = 0; i < width; i++) {
+//         const tile = letters[rowStartIndex + i];
+//         const letter = guess[i];
+
+//         if (letter === targetWord[i]) {
+//             tile.classList.add("correct");
+//         } else if (targetWord.includes(letter)) {
+//             tile.classList.add("present");
+//         } else {
+//             tile.classList.add("absent");
+//         }
+//     }
+
+//     if (guess.toUpperCase() === targetWord.toUpperCase()) {
+//         gameOver = true;
+//         // No alert, just colors
+//         return;
+//     }
+
+//     if (row === height - 1) {
+//         gameOver = true;
+//         return;
+//     }
+
+//     row++;
+//     guess = "";
+//     currentLetterIndex = 0;
+// }

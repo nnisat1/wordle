@@ -55,6 +55,12 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 
 
+}
+
+.scoreboard-tile:hover {
+  background-color: #d3d3d3; 
+  cursor: pointer; 
 }
